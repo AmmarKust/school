@@ -1,0 +1,288 @@
+/* 
+copyright: Jo Phillips designed for Themeforest.net - Feb. 2012 - version 3  
+http://themeforest.net/user/josweb 
+http://spiralpixel.com 
+*/
+
+
+
+/*--------------------------------------------------------------- */
+/*GENERAL*/
+/*--------------------------------------------------------------- */
+a, input, select, textarea {outline:none; text-decoration:none; }
+:focus {outline: 0;}
+ul {list-style-type:none; }
+a:hover, a:active, a:focus { outline: 0!important;text-decoration:none;  }
+
+/* - DIVIDER - */
+hr {
+	margin:20px auto 35px;
+	border: none;
+	border-top: medium double #777;
+}
+
+/* - PADDING- */
+.pad25 { padding-bottom: 25px; }
+.pad50 { padding: 25px 0; }
+.marg5 { margin: 5px 0; }
+
+/* - PHOTO - */
+.photo { float: left; margin: 5px 10px 0 0; }
+
+/* - MAP - */
+iframe { border: 0; width: 100%; padding: 0 0 ; margin-bottom: -7px;}
+#map {margin: 16px 0 10px 0; }
+
+/* - LINKS - */
+a {
+	color: #b68900;
+	text-decoration: none;
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	outline:none;
+}
+a:hover { color: #555; }
+
+/* - IMAGE HOVER - */
+a img {
+	opacity: 1.0;
+	-moz-transition: opacity 0.2s 0.1s ease-out, visibility 0.1s 0.1s linear; 
+	-webkit-transition: opacity 0.3s ease-out, visibility 0.1s 0.1s linear;k,,,m 
+	-o-transition: opacity 0.3s ease-out, visibility 0.1s 0.1s linear;
+	transition: opacity 0.3s ease-out, visibility 0.1s 0.1s linear;
+}
+a img:hover { opacity: .80; }
+
+body {
+	background: url(images/floral.png) repeat;
+	background-color: #fff; 
+	color: #747474;
+	font: normal 12px/1.9em helvetica neue, helvetica, arial  sans-serif;
+}
+
+.container{ margin: 0 auto 50px; padding: 60px 0px 30px; }
+
+/*--------------------------------------------------------------- */
+/* - TOP STRIP  AND LOGO - */
+/*--------------------------------------------------------------- */
+div.c1 {text-align: center}
+.strip {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: url(style/images/dark.png) repeat;
+	background-color: #333;
+	z-index: 10;
+	height: 98px;
+	border-bottom: 4px solid #eee;
+	width: 100%;
+}
+.logo { margin-top: 12px;  }
+
+/*--------------------------------------------------------------- */
+/* - TYPOGRAPHY - */
+/*--------------------------------------------------------------- */
+
+h1 {
+	font: normal 28px Georgia, serif;
+	color: #555;
+	margin: 0 0;
+} 
+
+h2 {
+	    font: normal 15px Georgia, serif;
+	color: #555;
+	margin: 5px 0 19px;
+}
+
+ h3 {
+	font: normal 17px Georgia, serif;
+	color: #555;
+	margin:  0 0;
+}
+
+h4 {
+	font:normal 13px/18px Georgia, serif;
+	color: #555;
+	margin: 8px 0 15px;
+}
+
+/* - SECTION HEADING - */
+.title {
+	font: normal 22px Georgia, serif;
+	color: #555;
+	padding: 0 0 15px;
+}
+
+/* - HEADING NUMBER -*/
+span.first {
+	float: left;
+	font: normal 22px Georgia, serif;
+	color: #b68900;
+	margin-right:  4px;
+}
+
+/* - LIST- */
+.info { float: left; margin: 0; padding: 0; }
+.info li {
+	display: block;
+	font: normal 12px/1.9em helvetica neue, helvetica, arial, sans-serif;
+	color: #747474;
+	list-style: none;
+	padding-left: 20px;
+	background: url(images/bullet.jpg) 0 .8em no-repeat;
+}
+
+/*--------------------------------------------------------------- */
+/* - CONTACT FORM - */
+/*--------------------------------------------------------------- */
+
+textarea { width: 90%; }
+.form-horizontal{ margin-top: 10px; }
+.form-horizontal .control-group {  margin-bottom: 10px;}
+.form-horizontal .control-group2 { margin-top: 20px; }
+.form-horizontal label { font-size: 12px; color: #666;}
+
+.control-group input, .control-group textarea {
+	-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+	-moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+	border: 1px solid #fff; background-color:#f5f5f5;color:#666;font-size:12px;
+}
+
+.form-horizontal input:focus, .form-search input:focus, textarea:focus {
+	border-color: #fff;
+	-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.2), 0 0 4px rgba(186, 187, 184, 0.2);
+	-moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.2), 0 0 4px rgba(186, 187, 184, 0.2);
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.2), 0 0 4px rgba(186, 187, 184, 0.2);
+	outline: 0;
+}
+
+span.required{ color: #b68900; padding-left: 3px; font-size: 15px;  }
+.success { font: 17px/1.8 Georgia, serif;  color: #777; margin: 10px 0 30px; }
+.error {
+    color: #999;
+    fon-size:  12px;
+    position: relative;
+    float: right;
+    margin: 0 0;
+}
+.btn{ color: #eee; font-size: 13px; }
+
+/* -- ICONS -- */
+.icon-4x { font-size: 20px; margin: 5px 10px  0 0; color: #444; }
+
+/* -- COPYRIGHT -- */
+#copyright {
+font: normal 12px Georgia, serif;
+color: #666;
+text-align: center;
+line-height: 14px;
+margin: -20px auto 40px;
+}
+
+/* -- BACK TO TOP -- */
+#back-top  { margin: 5px 0; }
+
+/*--------------------------------------------------------------- */
+/* - TOOL TIPS - */
+/*--------------------------------------------------------------- */
+#tiptip_holder {
+	display: none;
+	position: absolute;
+	top: 0;font-family: "Trebuchet MS";
+	left: 0;
+	z-index: 99999;
+}
+
+#tiptip_holder.tip_top { padding-bottom: 5px; }
+#tiptip_holder.tip_bottom { padding-top: 5px; }
+#tiptip_holder.tip_right { padding-left: 5px; }
+#tiptip_holder.tip_left { padding-right: 5px; }
+
+#tiptip_content {
+	font-size: 11px;
+	color: #fff;
+	text-shadow: 0 0 2px #000;
+	padding: 4px 8px;
+	border: 1px solid rgba(255,255,255,0.25);
+	background-color: rgb(25,25,25);
+	background-color: rgba(25,25,25,0.92);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(#000));
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+#tiptip_arrow, #tiptip_arrow_inner {
+	position: absolute;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 6px;
+	height: 0;
+	width: 0;
+}
+
+#tiptip_holder.tip_top #tiptip_arrow {
+	border-top-color: #fff;
+	border-top-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_bottom #tiptip_arrow {
+	border-bottom-color: #fff;
+	border-bottom-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_right #tiptip_arrow {
+	border-right-color: #fff;
+	border-right-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_left #tiptip_arrow {
+	border-left-color: #fff;
+	border-left-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_top #tiptip_arrow_inner {
+	margin-top: -7px;
+	margin-left: -6px;
+	border-top-color: rgb(25,25,25);
+	border-top-color: rgba(25,25,25,0.92);
+}
+
+#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+	margin-top: -5px;
+	margin-left: -6px;
+	border-bottom-color: rgb(25,25,25);
+	border-bottom-color: rgba(25,25,25,0.92);
+}
+
+#tiptip_holder.tip_right #tiptip_arrow_inner {
+	margin-top: -6px;
+	margin-left: -5px;
+	border-right-color: rgb(25,25,25);
+	border-right-color: rgba(25,25,25,0.92);
+}
+
+#tiptip_holder.tip_left #tiptip_arrow_inner {
+	margin-top: -6px;
+	margin-left: -7px;
+	border-left-color: rgb(25,25,25);
+	border-left-color: rgba(25,25,25,0.92);
+}
+
+/* Webkit Hacks  */
+@media screen and (-webkit-min-device-pixel-ratio:0) {	
+	#tiptip_content {
+		padding: 4px 8px 5px 8px;
+		background-color: rgba(45,45,45,0.88);
+	}
+	#tiptip_holder.tip_bottom #tiptip_arrow_inner { 
+		border-bottom-color: rgba(45,45,45,0.88);
+	}
+	#tiptip_holder.tip_top #tiptip_arrow_inner { 
+		border-top-color: rgba(20,20,20,0.92);
+	}
+}

@@ -1,0 +1,105 @@
+/* - copyright: Jo Phillips designed for Themeforest.net - April. 2013 - version 2 
+This file is only available for download on Themeforest, if you have downloaded it from another site, you are using it illegally. http://themeforest.net/user/josweb
+Please do the right thing and buy it. Many thanks - */
+
+
+/*--------------------------------------------------------------- */
+/*BODY*/
+/*--------------------------------------------------------------- */
+body {
+color:#555;
+font:normal 12px/1.9em helvetica neue, helvetica, arial  sans-serif;
+margin:20px auto 100px;
+}
+
+/*--------------------------------------------------------------- */
+/* - TOP STRIP, LOGO HR - */
+/*--------------------------------------------------------------- */
+.strip, .logo, hr { display:none; }
+
+/*--------------------------------------------------------------- */
+/* - GENERAL STYLING - */
+/*--------------------------------------------------------------- */
+a { color:#666; text-decoration:none; outline:none; }
+a:hover { color:#555; }
+
+.container { width:900px; margin:0 auto 30px; }
+
+.span6 { clear:both; padding-top:20px; margin-bottom:0px; }
+p { padding-top:0px; margin-bottom:10px; }
+.title { padding-top:30px; }
+
+.hide-print, #copyright { display:none; }
+.clearfix { clear:both; }
+
+/* - section heading  - */
+.title {
+font:normal 18px Georgia, serif;
+color:#555;
+border-bottom:1px dotted #ccc;
+margin:0px 0 25px;
+padding:0 0 10px;
+}
+
+/* - heading number -*/
+span.first {
+float:left;
+font:normal 17px Georgia, serif;
+color:#666;
+margin-right:4px;
+}
+
+/*--------------------------------------------------------------- */
+/* - 01. TYPOGRAPHY - */
+/*--------------------------------------------------------------- */
+h1 {
+font:normal 28px Georgia, serif;
+color:#555;
+margin:-1px 0 0;
+}
+
+h2 {
+font:italic normal 13px Georgia, serif;
+color:#555;
+margin:5px 0 19px;
+}
+
+h3 {
+font:normal 16px Georgia, serif;
+color:#555;
+margin:20px 0 0;
+}
+
+h4 {
+font:italic normal 13px/18px Georgia, serif;
+color:#555;
+margin:8px 0 15px;
+}
+
+/* - LIST - */
+.info {
+float:left;
+margin:0;
+padding:0;
+}
+
+.info li {
+font:normal 12px/1.9em helvetica neue, helvetica, arial, sans-serif;
+color:#555;
+list-style-type:disc;
+margin-left:14px;
+}
+
+/* - PHOTO - */
+.photo {
+float:left;
+border:1px solid #ccc;
+margin:4px 8px 0 0;
+padding:4px;
+}
+
+
+
+
+
+
